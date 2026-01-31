@@ -18,7 +18,7 @@ window.addEventListener("scroll", () => {
         let scrollTop = window.scrollY;
         let sectionTop = sec.offsetTop - 300;
 
-        if (scrollTop > sectionTop) {
+        if (scrollTop > sectionTop) {  
             sec.classList.add("show");
         }
     });
